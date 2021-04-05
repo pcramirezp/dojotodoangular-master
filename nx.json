@@ -1,0 +1,33 @@
+{
+  "npmScope": "dojotodoangular",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "todo-e2e": {
+      "tags": []
+    },
+    "todo": {
+      "tags": []
+    },
+    "data": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    },
+    "ui-e2e": {
+      "tags": []
+    },
+    "utils": {
+      "tags": []
+    }
+  }
+}

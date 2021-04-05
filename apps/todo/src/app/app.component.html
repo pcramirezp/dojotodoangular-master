@@ -1,0 +1,4 @@
+<dojotodoangular-input [id]='"taskInput"' [placeholder]='"Ingrese una tarea aquí"'></dojotodoangular-input>
+<span *ngFor="let task of state">
+    <dojotodoangular-task [todo]='task'></dojotodoangular-task>
+</span>
